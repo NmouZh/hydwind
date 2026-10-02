@@ -1,0 +1,21 @@
+{
+  "schema": 10,
+  "enabled": true,
+  "width": 112,
+  "height": 112,
+  "zoom": 15,
+  "anchor": "top_right",
+  "theme": "dark",
+  "opacity": 0.94,
+  "provider": "gsi_japan_standard",
+  "show_compass": true,
+  "show_player_marker": true,
+  "show_location_label": true,
+  "show_other_players": true,
+  "geocoding_enabled": true,
+  "encyclopedia_enabled": false,
+  "knowledge_policy": "smart",
+  "arrival_preview_enabled": true,
+  "reduced_motion": false,
+  "overworld_only": true
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "instance_id": "local:ac1f1ddb-0e57-4141-8339-62f8f3e7b2a9",
+  "path": "HydWind",
+  "generated_at": "2026-10-02T06:26:42.187495Z",
+  "name": "HydWind",
+  "icon_path": null,
+  "update_channel": "release",
+  "symlink_target": null,
+  "game_dir_override": null,
+  "groups": [],
+  "content_set": {
+    "source_kind": "local",
+    "game_version": "1.21.1",
+    "protocol_version": null,
+    "loader": "neoforge",
+    "loader_version": "21.1.250"
+  },
+  "link": "unmanaged",
+  "launch_overrides": {
+    "memory": {
+      "maximum": 8192,
+      "automatic": false,
+      "optimize_before_launch": false
+    },
+    "hooks": {
+      "pre_launch": null,
+      "wrapper": null,
+      "post_exit": null
+    }
+  }
+}

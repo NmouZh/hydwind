@@ -1,0 +1,7 @@
+-----------------------------------------------------------------------------------
+DateTime: 02.10.2026 14:30:29:982 +08:00; PID: 30976
+This file contains the stderr stream of the Minecraft process logged to a file.
+It does not include stdout or log (log4j) messages to avoid performance impact.
+-----------------------------------------------------------------------------------
+[14:32:31:474] [STDERR]: 10ÔÂ 02, 2026 2:32:31 ÏÂÎç guideme.internal.shaded.lucene.internal.vectorization.VectorizationProvider lookup
+[14:32:31:474] [STDERR]: ¾¯¸æ: You are running with unsupported Java 21. To make full use of the Vector API, please update Apache Lucene.

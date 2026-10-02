@@ -1,0 +1,3 @@
+# ZstdNet client config
+# zstd compression level for the local client proxy
+level=3

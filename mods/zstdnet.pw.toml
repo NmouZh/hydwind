@@ -1,0 +1,13 @@
+name = "ZSTDNET"
+filename = "zstdnet-1.21.1-neoforge-1.4.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "516d32ad76886007271f6c8237ca9032e11103a5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8986886
+project-id = 1506928

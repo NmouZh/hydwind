@@ -1,0 +1,13 @@
+name = "MCphone"
+filename = "mcphone-1.10.2-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "58ebdb1ebfc815cade01f52c53bb8f0a97135acc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8878653
+project-id = 1681807

@@ -1,0 +1,13 @@
+name = "Symbols 'n' Stuff"
+filename = "symbols_n_stuff-0.1.2+1.21+neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7b64223604ce8c09b3230c06ef3fb3ab54b5caa2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5730424
+project-id = 1091274

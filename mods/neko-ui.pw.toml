@@ -1,0 +1,13 @@
+name = "Neko UI"
+filename = "nekoui-1.0.3-release+mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "549f10b071745bb0ddddf1a5c16e740a615d44c9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7357561
+project-id = 999428

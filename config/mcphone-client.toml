@@ -1,0 +1,93 @@
+#手机界面的字体颜色。
+#WHITE 是默认，与不改这一项时完全一致；
+#BLACK 配浅色壁纸用——壁纸浅、字也浅的话就看不清了。
+#Font color of the phone UI. WHITE is the default; pick BLACK for light wallpapers.
+#Allowed Values: WHITE, BLACK, AMBER, CYAN, MINT, PINK
+fontColor = "WHITE"
+#音乐 App 的循环模式。
+#Loop mode of the Music app.
+#Allowed Values: LIST_LOOP, SINGLE_LOOP, SHUFFLE
+musicMode = "LIST_LOOP"
+#音乐 App 的音量，0-100。
+#这是这台手机自己的音量，最终输出还会乘游戏的主音量与唱片音量。
+#Music app volume (0-100), multiplied by the game's master and record sliders.
+# Default: 100
+# Range: 0 ~ 100
+musicVolume = 100
+#每个 App 的快捷键，一条一个 App，写成 <App id>=<键>。
+#键名用原版那套写法（options.txt 里也是这个），例如 key.keyboard.k；
+#组合键把修饰键写在前面并用加号连起来，可以叠：
+#  mcphone:chat=CONTROL+key.keyboard.k
+#  mcphone:notes=CONTROL+SHIFT+key.keyboard.n
+#修饰键只认 CONTROL / SHIFT / ALT 三个（Mac 上 CONTROL 就是 Command）。
+#正常不用手改这里：设置 → App 管理器 → 点开某个 App → 快捷键。
+#Per-app hotkeys, one entry per app, written as <app id>=<key>.
+#Vanilla key names (e.g. key.keyboard.k); prefix CONTROL/SHIFT/ALT with
+#'+' for combos. Normally set in-game via Settings -> App Manager.
+appHotkeys = []
+#拍照时用『模糊一下』代替满屏白闪。
+#false 是默认，与不改这一项时完全一致；
+#夜里或在暗处拍照时白闪会把屏幕顶到全白，介意的话开这个。
+#在游戏里改：设置 → App 管理器 → 相机 → 快门闪光。
+#Replace the white shutter flash with a short blur.
+#In-game: Settings -> App Manager -> Camera -> Shutter flash.
+cameraSoftFlash = false
+#在照片右下角印上拍照那一刻的坐标。
+#true 是默认。坐标是【画进照片里】的，相册与截图文件夹里那张 png 都带着，
+#发给没装本模组的人也看得到；关掉之后拍的照片不再有，已经拍下的擦不掉。
+#在游戏里改：设置 → App 管理器 → 相机 → 坐标水印。
+#Stamp the capture coordinates onto the bottom-right of each photo.
+#The text is baked into the image, so it survives sharing the png.
+#In-game: Settings -> App Manager -> Camera -> Coordinate stamp.
+cameraCoordStamp = true
+#手机界面开多大，百分比。100 是原样，150 就是放大一半。
+#GUI 缩放是全局的，调大它聊天框和物品栏会跟着变大；这一项只管手机。
+#窗口放不下时会自动夹回去，配置里的数不变。
+#在游戏里改：设置 → 界面大小。
+#Phone UI size in percent (100 = unscaled). Unlike the vanilla GUI scale,
+#this only affects the phone. In-game: Settings -> UI size.
+# Default: 100
+# Range: 75 ~ 300
+uiScale = 100
+#界面大小只在『清晰的倍数』上取值。
+#字是位图，GUI 缩放 × 界面大小 是整数时每个像素才方方正正；
+#开着的时候档位对齐到 1/GUI缩放（缩放 2 → 100/150/200…）。
+#关掉就能填任意数，代价是非整数倍下细线时粗时细。
+#Snap the phone UI size to values that keep text pixel-perfect
+#(guiScale x uiScale must be a whole number).
+uiScaleSnap = true
+#手机放进副手时，自动把它挂到 HUD 上（一直亮着，停在哪一页就显示哪一页）。
+#这一项只管【自动】那条。关掉之后，『唤出/收起手机 HUD』那个键（默认 G）照样叫得出来
+#——手机挂在 Curios 饰品栏里时副手是空的，只能靠那个键。
+#按一下『操作手机 HUD』那个键（默认左 Alt）唤出鼠标直接点它，再按一下收起。
+#位置与大小在游戏里改：设置 → 副手 HUD。
+#Show the phone as a HUD overlay while it sits in your off hand.
+#This only governs the automatic rule; the 'Toggle Phone HUD' key (default G)
+#still summons it from your bag or a Curios slot.
+#Tap the 'Use phone HUD' key (default Left Alt) for a cursor; tap again to dismiss.
+#In-game: Settings -> Off-hand HUD.
+hudEnabled = true
+#HUD 上那部手机贴哪个角。换分辨率、改 GUI 缩放之后靠它留在原处。
+#在游戏里改：唤出鼠标后直接拖手机的边框，或者 设置 → 副手 HUD → 位置。
+#Which corner the HUD phone sticks to; keeps it in place across resolutions.
+#In-game: drag the phone's edge with the cursor up, or Settings -> Off-hand HUD.
+#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, MIDDLE_LEFT, MIDDLE_CENTER, MIDDLE_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+hudAnchor = "BOTTOM_RIGHT"
+#从锚点再往里挪多少像素（横）。贴着角落多半会压到物品栏，挪几像素才好看。
+#Pixel offset from the anchor, horizontal.
+# Default: 0
+# Range: -4096 ~ 4096
+hudOffsetX = 0
+#从锚点再往里挪多少像素（竖）。
+#Pixel offset from the anchor, vertical.
+# Default: 0
+# Range: -4096 ~ 4096
+hudOffsetY = 0
+#HUD 上那部手机开多大，百分比。与『手机界面大小』是两个数：
+#那一档管全屏打开时多大，这一档管挂在角落里多大，后者必然小得多。
+#在游戏里改：唤出鼠标后 Ctrl+滚轮，或者 设置 → 副手 HUD → 大小。
+#Size of the HUD phone in percent. Separate from the full-screen UI size.
+#In-game: Ctrl+scroll with the cursor up, or Settings -> Off-hand HUD.
+# Default: 60
+# Range: 40 ~ 150
+hudScale = 60

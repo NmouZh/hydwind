@@ -1,0 +1,13 @@
+name = "hydwind"
+author = "nz_173 and sbd_114514"
+version = "0.1 beta"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c4062a8c75260f4746d9790befc2ebccf4917f70e79646d48cdd0e1236368c57"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.250"

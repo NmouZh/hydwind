@@ -1,0 +1,13 @@
+name = "Dynamic Surroundings"
+filename = "dynamicsurroundings-neoforge-1.21.1-0.4.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "39816ebe057cdfe94c419c52a0b4583d411e0b34"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8966350
+project-id = 238891

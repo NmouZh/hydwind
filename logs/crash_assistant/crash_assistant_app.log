@@ -1,0 +1,207 @@
+[2026-10-02 14:30:45.085] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running: JVM args: [-XX:+UseSerialGC, -XX:MaxHeapFreeRatio=30, -XX:MinHeapFreeRatio=10, -XX:MaxGCPauseMillis=10000, -Xms8m, -Xmx512m]
+[2026-10-02 14:30:45.093] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running: program args: [-jarPath, local\crash_assistant\30976_1790922623023_app.jar, -parentPID, 30976, -parentStarted, 1790922623023, -platform, NEOFORGE, -platformOwerridenData, aHR0cHM6Ly9kaXNjb3JkLm5lb2ZvcmdlZC5uZXQKTmVvRm9yZ2UgRGlzY29yZAojdXNlcl9zdXBwb3J0IGNoYW5uZWw=, -loaderJarName, neoforge-21.1.250, -minecraftVersion, 1.21.1, -childProcessesPIDs, VU5ERUZJTkVE, -minecraftStartCommand, LS11c2VybmFtZSwgTnpfMTczLCAtLXZlcnNpb24sIDEuMjEuMSwgLS1nYW1lRGlyLCBFOlxteHlccHJvZmlsZXNcSHlkV2luZCwgLS1hc3NldHNEaXIsIEU6XG14eVxtZXRhXGFzc2V0cywgLS1hc3NldEluZGV4LCAxNywgLS11dWlkLCA3ZGRiYmU5OGEwZWM0MTM5Yjg0MTNiYTJiNjc3NjRjMCwgLS1hY2Nlc3NUb2tlbiwgPz8/Pz8/Pz8sIC0tY2xpZW50SWQsIGM0NTAyZWRiLTg3YzYtNDBjYi1iNTk1LTY0YTI4MGNmODkwNiwgLS14dWlkLCA/Pz8/Pz8/PywgLS11c2VyVHlwZSwgbXNhLCAtLXZlcnNpb25UeXBlLCByZWxlYXNlLCAtLXdpZHRoLCA4NTQsIC0taGVpZ2h0LCA0ODAsIC0tcXVpY2tQbGF5UGF0aCwgJHtxdWlja1BsYXlQYXRofSwgLS1mbWwubmVvRm9yZ2VWZXJzaW9uLCAyMS4xLjI1MCwgLS1mbWwuZm1sVmVyc2lvbiwgNC4wLjQ0LCAtLWZtbC5tY1ZlcnNpb24sIDEuMjEuMSwgLS1mbWwubmVvRm9ybVZlcnNpb24sIDIwMjQwODA4LjE0NDQzMCwgLS1sYXVuY2hUYXJnZXQsIGZvcmdlY2xpZW50, -minecraftJvmArgs, LVhYOkhlYXBEdW1wUGF0aD1Nb2phbmdUcmlja3NJbnRlbERyaXZlcnNGb3JQZXJmb3JtYW5jZV9qYXZhdy5leGVfbWluZWNyYWZ0LmV4ZS5oZWFwZHVtcCwgLURqYXZhLmxpYnJhcnkucGF0aD1FOlxteHlcbWV0YVxuYXRpdmVzXDEuMjEuMS0yMS4xLjI1MCwgLURqbmEudG1wZGlyPUU6XG14eVxtZXRhXG5hdGl2ZXNcMS4yMS4xLTIxLjEuMjUwLCAtRG9yZy5sd2pnbC5zeXN0ZW0uU2hhcmVkTGlicmFyeUV4dHJhY3RQYXRoPUU6XG14eVxtZXRhXG5hdGl2ZXNcMS4yMS4xLTIxLjEuMjUwLCAtRGlvLm5ldHR5Lm5hdGl2ZS53b3JrZGlyPUU6XG14eVxtZXRhXG5hdGl2ZXNcMS4yMS4xLTIxLjEuMjUwLCAtRG1pbmVjcmFmdC5sYXVuY2hlci5icmFuZD10aGVzZXVzLCAtRG1pbmVjcmFmdC5sYXVuY2hlci52ZXJzaW9uPTEuOS43LCAtRGphdmEubmV0LnByZWZlcklQdjZBZGRyZXNzZXM9c3lzdGVtLCAtRGlnbm9yZUxpc3Q9Y2xpZW50LWV4dHJhLDEuMjEuMS0yMS4xLjI1MC5qYXIsIC1EbGlicmFyeURpcmVjdG9yeT1FOlxteHlcbWV0YVxsaWJyYXJpZXMsIC0tbW9kdWxlLXBhdGg9RTpcbXh5XG1ldGFcbGlicmFyaWVzL2Nwdy9tb2RzL2Jvb3RzdHJhcGxhdW5jaGVyLzIuMC4yL2Jvb3RzdHJhcGxhdW5jaGVyLTIuMC4yLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXMvY3B3L21vZHMvc2VjdXJlamFyaGFuZGxlci8zLjAuOC9zZWN1cmVqYXJoYW5kbGVyLTMuMC44LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXMvb3JnL293Mi9hc20vYXNtLWNvbW1vbnMvOS4xMC4xL2FzbS1jb21tb25zLTkuMTAuMS5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzL29yZy9vdzIvYXNtL2FzbS11dGlsLzkuMTAuMS9hc20tdXRpbC05LjEwLjEuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllcy9vcmcvb3cyL2FzbS9hc20tYW5hbHlzaXMvOS4xMC4xL2FzbS1hbmFseXNpcy05LjEwLjEuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllcy9vcmcvb3cyL2FzbS9hc20tdHJlZS85LjEwLjEvYXNtLXRyZWUtOS4xMC4xLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXMvb3JnL293Mi9hc20vYXNtLzkuMTAuMS9hc20tOS4xMC4xLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXMvbmV0L25lb2ZvcmdlZC9KYXJKYXJGaWxlU3lzdGVtcy8wLjQuMS9KYXJKYXJGaWxlU3lzdGVtcy0wLjQuMS5qYXIsIC0tYWRkLW1vZHVsZXM9QUxMLU1PRFVMRS1QQVRILCAtLWFkZC1vcGVucz1qYXZhLmJhc2UvamF2YS51dGlsLmphcj1jcHcubW9kcy5zZWN1cmVqYXJoYW5kbGVyLCAtLWFkZC1vcGVucz1qYXZhLmJhc2UvamF2YS5sYW5nLmludm9rZT1jcHcubW9kcy5zZWN1cmVqYXJoYW5kbGVyLCAtLWFkZC1leHBvcnRzPWphdmEuYmFzZS9zdW4uc2VjdXJpdHkudXRpbD1jcHcubW9kcy5zZWN1cmVqYXJoYW5kbGVyLCAtLWFkZC1leHBvcnRzPWpkay5uYW1pbmcuZG5zL2NvbS5zdW4uam5kaS5kbnM9amF2YS5uYW1pbmcsIC1YbXg4MTkyTSwgLURsb2c0ai5jb25maWd1cmF0aW9uRmlsZT1FOlxteHlcbWV0YVxsb2dfY29uZmlnc1xjbGllbnQtMS4xMi54bWwsIC1qYXZhYWdlbnQ6QzpcVXNlcnNcPFVTRVI+XEFwcERhdGFcTG9jYWxcVGVtcFwudG1wUHVYWXA1XHRoZXNldXMuamFyLCAtRG1vZHJpbnRoLmludGVybmFsLmlwYy5ob3N0PTEyNy4wLjAuMSwgLURtb2RyaW50aC5pbnRlcm5hbC5pcGMucG9ydD0xMzgxOSwgLURtb2RyaW50aC5pbnRlcm5hbC5xdWlja1BsYXkuc2VydmVyVmVyc2lvbj1CVUlMVElOLCAtWFg6K1VzZVpHQywgLVhYOitaR2VuZXJhdGlvbmFsLCAtWFg6K0Fsd2F5c1ByZVRvdWNoLCAtWFg6LVpVbmNvbW1pdCwgLURtaW5lY3JhZnQubGF1bmNoZXIuYnJhbmQ9QXhvbG90bCBMYXVuY2hlciwgLURtaW5lY3JhZnQubGF1bmNoZXIudmVyc2lvbj0xLjkuNywgLS1hZGQtb3BlbnM9amF2YS5iYXNlL2phdmEubGFuZy5yZWZsZWN0PUFMTC1VTk5BTUVE, -minecraftClassPath, QzpcVXNlcnNcPFVTRVI+XEFwcERhdGFcTG9jYWxcVGVtcFwudG1wUHVYWXA1XHRoZXNldXMuamFyO0U6XG14eVxtZXRhXHZlcnNpb25zXDEuMjEuMS0yMS4xLjI1MFwxLjIxLjEtMjEuMS4yNTAuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xjb21cZ2l0aHViXG9zaGlcb3NoaS1jb3JlXDYuNC4xMFxvc2hpLWNvcmUtNi40LjEwLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcY29tXGlibVxpY3VcaWN1NGpcNzMuMlxpY3U0ai03My4yLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcY29tXG1vamFuZ1xhdXRobGliXDYuMC41NFxhdXRobGliLTYuMC41NC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGNvbVxtb2phbmdcYmxvY2tsaXN0XDEuMC4xMFxibG9ja2xpc3QtMS4wLjEwLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcY29tXG1vamFuZ1xicmlnYWRpZXJcMS4zLjEwXGJyaWdhZGllci0xLjMuMTAuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xjb21cbW9qYW5nXGRhdGFmaXhlcnVwcGVyXDguMC4xNlxkYXRhZml4ZXJ1cHBlci04LjAuMTYuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xjb21cbW9qYW5nXHBhdGNoeVwyLjIuMTBccGF0Y2h5LTIuMi4xMC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGNvbVxtb2phbmdcdGV4dDJzcGVlY2hcMS4xNy45XHRleHQyc3BlZWNoLTEuMTcuOS5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGNvbW1vbnMtY29kZWNcY29tbW9ucy1jb2RlY1wxLjE2LjBcY29tbW9ucy1jb2RlYy0xLjE2LjAuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xjb21tb25zLWxvZ2dpbmdcY29tbW9ucy1sb2dnaW5nXDEuMlxjb21tb25zLWxvZ2dpbmctMS4yLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcaW9cbmV0dHlcbmV0dHktYnVmZmVyXDQuMS45Ny5GaW5hbFxuZXR0eS1idWZmZXItNC4xLjk3LkZpbmFsLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcaW9cbmV0dHlcbmV0dHktY29kZWNcNC4xLjk3LkZpbmFsXG5ldHR5LWNvZGVjLTQuMS45Ny5GaW5hbC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGlvXG5ldHR5XG5ldHR5LWNvbW1vblw0LjEuOTcuRmluYWxcbmV0dHktY29tbW9uLTQuMS45Ny5GaW5hbC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGlvXG5ldHR5XG5ldHR5LWhhbmRsZXJcNC4xLjk3LkZpbmFsXG5ldHR5LWhhbmRsZXItNC4xLjk3LkZpbmFsLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcaW9cbmV0dHlcbmV0dHktcmVzb2x2ZXJcNC4xLjk3LkZpbmFsXG5ldHR5LXJlc29sdmVyLTQuMS45Ny5GaW5hbC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGlvXG5ldHR5XG5ldHR5LXRyYW5zcG9ydC1jbGFzc2VzLWVwb2xsXDQuMS45Ny5GaW5hbFxuZXR0eS10cmFuc3BvcnQtY2xhc3Nlcy1lcG9sbC00LjEuOTcuRmluYWwuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xpb1xuZXR0eVxuZXR0eS10cmFuc3BvcnQtbmF0aXZlLXVuaXgtY29tbW9uXDQuMS45Ny5GaW5hbFxuZXR0eS10cmFuc3BvcnQtbmF0aXZlLXVuaXgtY29tbW9uLTQuMS45Ny5GaW5hbC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGlvXG5ldHR5XG5ldHR5LXRyYW5zcG9ydFw0LjEuOTcuRmluYWxcbmV0dHktdHJhbnNwb3J0LTQuMS45Ny5GaW5hbC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGl0XHVuaW1pXGRzaVxmYXN0dXRpbFw4LjUuMTJcZmFzdHV0aWwtOC41LjEyLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcbmV0XGphdmFcZGV2XGpuYVxqbmEtcGxhdGZvcm1cNS4xNC4wXGpuYS1wbGF0Zm9ybS01LjE0LjAuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xuZXRcamF2YVxkZXZcam5hXGpuYVw1LjE0LjBcam5hLTUuMTQuMC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xhcGFjaGVcY29tbW9uc1xjb21tb25zLWNvbXByZXNzXDEuMjYuMFxjb21tb25zLWNvbXByZXNzLTEuMjYuMC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xhcGFjaGVcaHR0cGNvbXBvbmVudHNcaHR0cGNsaWVudFw0LjUuMTNcaHR0cGNsaWVudC00LjUuMTMuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcYXBhY2hlXGh0dHBjb21wb25lbnRzXGh0dHBjb3JlXDQuNC4xNlxodHRwY29yZS00LjQuMTYuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcamNyYWZ0XGpvcmJpc1wwLjAuMTdcam9yYmlzLTAuMC4xNy5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xqb21sXGpvbWxcMS4xMC41XGpvbWwtMS4xMC41LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLWZyZWV0eXBlXDMuMy4zXGx3amdsLWZyZWV0eXBlLTMuMy4zLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLWZyZWV0eXBlXDMuMy4zXGx3amdsLWZyZWV0eXBlLTMuMy4zLW5hdGl2ZXMtd2luZG93cy5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xsd2pnbFxsd2pnbC1mcmVldHlwZVwzLjMuM1xsd2pnbC1mcmVldHlwZS0zLjMuMy1uYXRpdmVzLXdpbmRvd3MtYXJtNjQuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcbHdqZ2xcbHdqZ2wtZnJlZXR5cGVcMy4zLjNcbHdqZ2wtZnJlZXR5cGUtMy4zLjMtbmF0aXZlcy13aW5kb3dzLXg4Ni5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xsd2pnbFxsd2pnbC1nbGZ3XDMuMy4zXGx3amdsLWdsZnctMy4zLjMuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcbHdqZ2xcbHdqZ2wtZ2xmd1wzLjMuM1xsd2pnbC1nbGZ3LTMuMy4zLW5hdGl2ZXMtd2luZG93cy5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xsd2pnbFxsd2pnbC1nbGZ3XDMuMy4zXGx3amdsLWdsZnctMy4zLjMtbmF0aXZlcy13aW5kb3dzLWFybTY0LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLWdsZndcMy4zLjNcbHdqZ2wtZ2xmdy0zLjMuMy1uYXRpdmVzLXdpbmRvd3MteDg2LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLWplbWFsbG9jXDMuMy4zXGx3amdsLWplbWFsbG9jLTMuMy4zLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLWplbWFsbG9jXDMuMy4zXGx3amdsLWplbWFsbG9jLTMuMy4zLW5hdGl2ZXMtd2luZG93cy5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xsd2pnbFxsd2pnbC1qZW1hbGxvY1wzLjMuM1xsd2pnbC1qZW1hbGxvYy0zLjMuMy1uYXRpdmVzLXdpbmRvd3MtYXJtNjQuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcbHdqZ2xcbHdqZ2wtamVtYWxsb2NcMy4zLjNcbHdqZ2wtamVtYWxsb2MtMy4zLjMtbmF0aXZlcy13aW5kb3dzLXg4Ni5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xsd2pnbFxsd2pnbC1vcGVuYWxcMy4zLjNcbHdqZ2wtb3BlbmFsLTMuMy4zLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLW9wZW5hbFwzLjMuM1xsd2pnbC1vcGVuYWwtMy4zLjMtbmF0aXZlcy13aW5kb3dzLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLW9wZW5hbFwzLjMuM1xsd2pnbC1vcGVuYWwtMy4zLjMtbmF0aXZlcy13aW5kb3dzLWFybTY0LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLW9wZW5hbFwzLjMuM1xsd2pnbC1vcGVuYWwtMy4zLjMtbmF0aXZlcy13aW5kb3dzLXg4Ni5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xsd2pnbFxsd2pnbC1vcGVuZ2xcMy4zLjNcbHdqZ2wtb3BlbmdsLTMuMy4zLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLW9wZW5nbFwzLjMuM1xsd2pnbC1vcGVuZ2wtMy4zLjMtbmF0aXZlcy13aW5kb3dzLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLW9wZW5nbFwzLjMuM1xsd2pnbC1vcGVuZ2wtMy4zLjMtbmF0aXZlcy13aW5kb3dzLWFybTY0LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLW9wZW5nbFwzLjMuM1xsd2pnbC1vcGVuZ2wtMy4zLjMtbmF0aXZlcy13aW5kb3dzLXg4Ni5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xsd2pnbFxsd2pnbC1zdGJcMy4zLjNcbHdqZ2wtc3RiLTMuMy4zLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLXN0YlwzLjMuM1xsd2pnbC1zdGItMy4zLjMtbmF0aXZlcy13aW5kb3dzLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLXN0YlwzLjMuM1xsd2pnbC1zdGItMy4zLjMtbmF0aXZlcy13aW5kb3dzLWFybTY0LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLXN0YlwzLjMuM1xsd2pnbC1zdGItMy4zLjMtbmF0aXZlcy13aW5kb3dzLXg4Ni5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xsd2pnbFxsd2pnbC10aW55ZmRcMy4zLjNcbHdqZ2wtdGlueWZkLTMuMy4zLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLXRpbnlmZFwzLjMuM1xsd2pnbC10aW55ZmQtMy4zLjMtbmF0aXZlcy13aW5kb3dzLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLXRpbnlmZFwzLjMuM1xsd2pnbC10aW55ZmQtMy4zLjMtbmF0aXZlcy13aW5kb3dzLWFybTY0LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsLXRpbnlmZFwzLjMuM1xsd2pnbC10aW55ZmQtMy4zLjMtbmF0aXZlcy13aW5kb3dzLXg4Ni5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xsd2pnbFxsd2pnbFwzLjMuM1xsd2pnbC0zLjMuMy5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xsd2pnbFxsd2pnbFwzLjMuM1xsd2pnbC0zLjMuMy1uYXRpdmVzLXdpbmRvd3MuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcbHdqZ2xcbHdqZ2xcMy4zLjNcbHdqZ2wtMy4zLjMtbmF0aXZlcy13aW5kb3dzLWFybTY0LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGx3amdsXGx3amdsXDMuMy4zXGx3amdsLTMuMy4zLW5hdGl2ZXMtd2luZG93cy14ODYuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcbHo0XGx6NC1qYXZhXDEuOC4wXGx6NC1qYXZhLTEuOC4wLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcbmV0XG5lb2ZvcmdlZFxmYW5jeW1vZGxvYWRlclxlYXJseWRpc3BsYXlcNC4wLjQ0XGVhcmx5ZGlzcGxheS00LjAuNDQuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xuZXRcbmVvZm9yZ2VkXGZhbmN5bW9kbG9hZGVyXGxvYWRlclw0LjAuNDRcbG9hZGVyLTQuMC40NC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG5ldFxuZW9mb3JnZWRcYWNjZXNzdHJhbnNmb3JtZXJzXGF0LW1vZGxhdW5jaGVyXDEwLjAuMVxhdC1tb2RsYXVuY2hlci0xMC4wLjEuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xuZXRcbmVvZm9yZ2VkXGFjY2Vzc3RyYW5zZm9ybWVyc1wxMC4wLjFcYWNjZXNzdHJhbnNmb3JtZXJzLTEwLjAuMS5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG5ldFxuZW9mb3JnZWRcYnVzXDguMC41XGJ1cy04LjAuNS5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG5ldFxuZW9mb3JnZWRcY29yZW1vZHNcNy4wLjNcY29yZW1vZHMtNy4wLjMuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xjcHdcbW9kc1xtb2RsYXVuY2hlclwxMS4wLjVcbW9kbGF1bmNoZXItMTEuMC41LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcbmV0XG5lb2ZvcmdlZFxtZXJnZXRvb2xcMi4wLjBcbWVyZ2V0b29sLTIuMC4wLWFwaS5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGNvbVxlbGVjdHJvbndpbGxcbmlnaHQtY29uZmlnXHRvbWxcMy44LjNcdG9tbC0zLjguMy5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGNvbVxlbGVjdHJvbndpbGxcbmlnaHQtY29uZmlnXGNvcmVcMy44LjNcY29yZS0zLjguMy5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG5ldFxuZW9mb3JnZWRcSmFySmFyU2VsZWN0b3JcMC40LjFcSmFySmFyU2VsZWN0b3ItMC40LjEuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xuZXRcbmVvZm9yZ2VkXEphckphck1ldGFkYXRhXDAuNC4xXEphckphck1ldGFkYXRhLTAuNC4xLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGFwYWNoZVxtYXZlblxtYXZlbi1hcnRpZmFjdFwzLjguNVxtYXZlbi1hcnRpZmFjdC0zLjguNS5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG5ldFxqb2RhaFx0eXBldG9vbHNcMC42LjNcdHlwZXRvb2xzLTAuNi4zLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcbmV0XG1pbmVjcmVsbFx0ZXJtaW5hbGNvbnNvbGVhcHBlbmRlclwxLjMuMFx0ZXJtaW5hbGNvbnNvbGVhcHBlbmRlci0xLjMuMC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG5ldFxmYWJyaWNtY1xzcG9uZ2UtbWl4aW5cMC4xNS4yK21peGluLjAuOC43XHNwb25nZS1taXhpbi0wLjE1LjIrbWl4aW4uMC44LjcuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcb3Blbmpka1xuYXNob3JuXG5hc2hvcm4tY29yZVwxNS40XG5hc2hvcm4tY29yZS0xNS40LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGFwYWNoZVxjb21tb25zXGNvbW1vbnMtbGFuZzNcMy4xNC4wXGNvbW1vbnMtbGFuZzMtMy4xNC4wLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcY3B3XG1vZHNcYm9vdHN0cmFwbGF1bmNoZXJcMi4wLjJcYm9vdHN0cmFwbGF1bmNoZXItMi4wLjIuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xjcHdcbW9kc1xzZWN1cmVqYXJoYW5kbGVyXDMuMC44XHNlY3VyZWphcmhhbmRsZXItMy4wLjguamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcb3cyXGFzbVxhc20tY29tbW9uc1w5LjEwLjFcYXNtLWNvbW1vbnMtOS4xMC4xLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXG93Mlxhc21cYXNtLXV0aWxcOS4xMC4xXGFzbS11dGlsLTkuMTAuMS5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xvdzJcYXNtXGFzbS1hbmFseXNpc1w5LjEwLjFcYXNtLWFuYWx5c2lzLTkuMTAuMS5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xvdzJcYXNtXGFzbS10cmVlXDkuMTAuMVxhc20tdHJlZS05LjEwLjEuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcb3cyXGFzbVxhc21cOS4xMC4xXGFzbS05LjEwLjEuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xuZXRcbmVvZm9yZ2VkXEphckphckZpbGVTeXN0ZW1zXDAuNC4xXEphckphckZpbGVTeXN0ZW1zLTAuNC4xLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcbmV0XHNmXGpvcHQtc2ltcGxlXGpvcHQtc2ltcGxlXDUuMC40XGpvcHQtc2ltcGxlLTUuMC40LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXHNsZjRqXHNsZjRqLWFwaVwyLjAuOVxzbGY0ai1hcGktMi4wLjkuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcYW50bHJcYW50bHI0LXJ1bnRpbWVcNC4xMy4xXGFudGxyNC1ydW50aW1lLTQuMTMuMS5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGNvbVxtb2phbmdcbG9nZ2luZ1wxLjIuN1xsb2dnaW5nLTEuMi43LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGFwYWNoZVxsb2dnaW5nXGxvZzRqXGxvZzRqLXNsZjRqMi1pbXBsXDIuMjIuMVxsb2c0ai1zbGY0ajItaW1wbC0yLjIyLjEuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcYXBhY2hlXGxvZ2dpbmdcbG9nNGpcbG9nNGotY29yZVwyLjIyLjFcbG9nNGotY29yZS0yLjIyLjEuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcYXBhY2hlXGxvZ2dpbmdcbG9nNGpcbG9nNGotYXBpXDIuMjIuMVxsb2c0ai1hcGktMi4yMi4xLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGpsaW5lXGpsaW5lLXJlYWRlclwzLjIwLjBcamxpbmUtcmVhZGVyLTMuMjAuMC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG9yZ1xqbGluZVxqbGluZS10ZXJtaW5hbFwzLjIwLjBcamxpbmUtdGVybWluYWwtMy4yMC4wLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcY29tbW9ucy1pb1xjb21tb25zLWlvXDIuMTUuMVxjb21tb25zLWlvLTIuMTUuMS5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXG5ldFxtaW5lY3JhZnRmb3JnZVxzcmd1dGlsc1wwLjQuMTVcc3JndXRpbHMtMC40LjE1LmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcY29tXGdvb2dsZVxndWF2YVxndWF2YVwzMi4xLjItanJlXGd1YXZhLTMyLjEuMi1qcmUuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xjb21cZ29vZ2xlXGd1YXZhXGZhaWx1cmVhY2Nlc3NcMS4wLjFcZmFpbHVyZWFjY2Vzcy0xLjAuMS5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGNvbVxnb29nbGVcZ3VhdmFcbGlzdGVuYWJsZWZ1dHVyZVw5OTk5LjAtZW1wdHktdG8tYXZvaWQtY29uZmxpY3Qtd2l0aC1ndWF2YVxsaXN0ZW5hYmxlZnV0dXJlLTk5OTkuMC1lbXB0eS10by1hdm9pZC1jb25mbGljdC13aXRoLWd1YXZhLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcY29tXGdvb2dsZVxjb2RlXGZpbmRidWdzXGpzcjMwNVwzLjAuMlxqc3IzMDUtMy4wLjIuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xvcmdcY2hlY2tlcmZyYW1ld29ya1xjaGVja2VyLXF1YWxcMy4zMy4wXGNoZWNrZXItcXVhbC0zLjMzLjAuamFyO0U6XG14eVxtZXRhXGxpYnJhcmllc1xjb21cZ29vZ2xlXGVycm9ycHJvbmVcZXJyb3JfcHJvbmVfYW5ub3RhdGlvbnNcMi4xOC4wXGVycm9yX3Byb25lX2Fubm90YXRpb25zLTIuMTguMC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGNvbVxnb29nbGVcajJvYmpjXGoyb2JqYy1hbm5vdGF0aW9uc1wyLjhcajJvYmpjLWFubm90YXRpb25zLTIuOC5qYXI7RTpcbXh5XG1ldGFcbGlicmFyaWVzXGNvbVxnb29nbGVcY29kZVxnc29uXGdzb25cMi4xMC4xXGdzb24tMi4xMC4xLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcb3JnXGNvZGVoYXVzXHBsZXh1c1xwbGV4dXMtdXRpbHNcMy4zLjBccGxleHVzLXV0aWxzLTMuMy4wLmphcjtFOlxteHlcbWV0YVxsaWJyYXJpZXNcY29tXG1hY2hpbmV6b29cbm9leGNlcHRpb25cbm9leGNlcHRpb25cMS43LjFcbm9leGNlcHRpb24tMS43LjEuamFy, -crashAssistantModJarName, CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar, -classPath, local\crash_assistant\30976_1790922623023_app.jar;local\crash_assistant\30976_1790922623023_mod.jar;E:\mxy\meta\libraries\com\github\oshi\oshi-core\6.4.10\oshi-core-6.4.10.jar;E:\mxy\meta\libraries\net\java\dev\jna\jna-platform\5.14.0\jna-platform-5.14.0.jar;E:\mxy\meta\libraries\net\java\dev\jna\jna\5.14.0\jna-5.14.0.jar;E:\mxy\meta\libraries\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;E:\mxy\meta\libraries\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;E:\mxy\meta\libraries\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;E:\mxy\meta\libraries\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar, -minecraftXms, 254m, -minecraftXmx, 8g, -systemRAM, 15.8g, -systemUsedRAMAtMinecraftLaunchMoment, 12.0g, -systemSwapSpace, 29g, -systemUsedSwapSpaceAtMinecraftLaunchMoment, 3.4g, -systemDiskFreeSpaceAtMinecraftLaunchMoment, 43.5g, -minecraftSunJavaCommand, com.modrinth.theseus.MinecraftLaunch, -processor, SW50ZWwoUikgQ29yZShUTSkgaTUtOTMwMEggQ1BVIEAgMi40MEdIeg==]
+[2026-10-02 14:30:45.096] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running from: E:\mxy\profiles\HydWind
+[2026-10-02 14:30:45.105] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: crashAssistantVersion: 1.11.12
+[2026-10-02 14:30:45.105] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: crashAssistantJarName: CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar
+[2026-10-02 14:30:45.106] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Parent PID: 30976
+[2026-10-02 14:30:45.106] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Parent started: 1790922623023
+[2026-10-02 14:30:45.110] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Platform: NEOFORGE
+[2026-10-02 14:30:45.111] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: loaderJarName: neoforge-21.1.250
+[2026-10-02 14:30:45.111] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: minecraftVersion: 1.21.1
+[2026-10-02 14:30:45.111] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: childProcessesPIDs: UNDEFINED
+[2026-10-02 14:30:45.113] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: minecraftXms: 254m
+[2026-10-02 14:30:45.113] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: minecraftXmx: 8g
+[2026-10-02 14:30:45.114] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: systemRAM: 15.8g
+[2026-10-02 14:30:45.115] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: systemUsedRAMAtMinecraftLaunchMoment: 12.0g
+[2026-10-02 14:30:45.116] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: systemSwapSpace: 29g
+[2026-10-02 14:30:45.117] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: systemUsedSwapSpaceAtMinecraftLaunchMoment: 3.4g
+[2026-10-02 14:30:45.123] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: systemDiskTotalSpace (E:\): 275.9g
+[2026-10-02 14:30:45.124] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: systemDiskFreeSpaceAtMinecraftLaunchMoment (E:\): 43.5g
+[2026-10-02 14:30:45.126] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: processor: Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+[2026-10-02 14:30:45.128] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Mod-list snapshot process output:
+[2026-10-02 14:30:44.683] [INFO] [ModListUtils]: Parsed 166 mod(s) metadata in 765 ms
+[2026-10-02 14:30:44.844] [INFO] [ModListHistoryManager]: Captured mod-list history for launch 1790922623023 in local\crash_assistant\modlist_history
+CRASH_ASSISTANT_MODLIST_SNAPSHOT_RESULT:1790922623023:true
+
+[2026-10-02 14:30:45.129] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Boot.getSerialisedGPUs():
+Vulkan GPU detection addon not found, falling back to DirectX
+Successfully detected GPUs using DirectX:
+INTEGRATED : Intel(R) UHD Graphics 630
+DEDICATED : NVIDIA GeForce GTX 1660 Ti
+
+
+[2026-10-02 14:30:45.133] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: os.name: windows 11
+[2026-10-02 14:30:45.135] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Java path: C:\Program Files\Zulu\zulu-21\bin\javaw.exe
+[2026-10-02 14:30:45.137] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Java version: 21.0.12+8-LTS
+[2026-10-02 14:30:45.137] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Minecraft Main Class: com.modrinth.theseus.MinecraftLaunch
+[2026-10-02 14:30:45.138] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Minecraft JVM args: -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump, -Djava.library.path=E:\mxy\meta\natives\1.21.1-21.1.250, -Djna.tmpdir=E:\mxy\meta\natives\1.21.1-21.1.250, -Dorg.lwjgl.system.SharedLibraryExtractPath=E:\mxy\meta\natives\1.21.1-21.1.250, -Dio.netty.native.workdir=E:\mxy\meta\natives\1.21.1-21.1.250, -Dminecraft.launcher.brand=theseus, -Dminecraft.launcher.version=1.9.7, -Djava.net.preferIPv6Addresses=system, -DignoreList=client-extra,1.21.1-21.1.250.jar, -DlibraryDirectory=E:\mxy\meta\libraries, --module-path=E:\mxy\meta\libraries/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar;E:\mxy\meta\libraries/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar;E:\mxy\meta\libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar;E:\mxy\meta\libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar;E:\mxy\meta\libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar;E:\mxy\meta\libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar;E:\mxy\meta\libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar;E:\mxy\meta\libraries/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar, --add-modules=ALL-MODULE-PATH, --add-opens=java.base/java.util.jar=cpw.mods.securejarhandler, --add-opens=java.base/java.lang.invoke=cpw.mods.securejarhandler, --add-exports=java.base/sun.security.util=cpw.mods.securejarhandler, --add-exports=jdk.naming.dns/com.sun.jndi.dns=java.naming, -Xmx8192M, -Dlog4j.configurationFile=E:\mxy\meta\log_configs\client-1.12.xml, -javaagent:C:\Users\<USER>\AppData\Local\Temp\.tmpPuXYp5\theseus.jar, -Dmodrinth.internal.ipc.host=127.0.0.1, -Dmodrinth.internal.ipc.port=13819, -Dmodrinth.internal.quickPlay.serverVersion=BUILTIN, -XX:+UseZGC, -XX:+ZGenerational, -XX:+AlwaysPreTouch, -XX:-ZUncommit, -Dminecraft.launcher.brand=Axolotl Launcher, -Dminecraft.launcher.version=1.9.7, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+[2026-10-02 14:30:45.138] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Minecraft Launch Command: --username, Nz_173, --version, 1.21.1, --gameDir, E:\mxy\profiles\HydWind, --assetsDir, E:\mxy\meta\assets, --assetIndex, 17, --uuid, 7ddbbe98a0ec4139b8413ba2b67764c0, --accessToken, ????????, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, ????????, --userType, msa, --versionType, release, --width, 854, --height, 480, --quickPlayPath, ${quickPlayPath}, --fml.neoForgeVersion, 21.1.250, --fml.fmlVersion, 4.0.44, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient
+[2026-10-02 14:30:45.140] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Minecraft classPath:
+
+
+C:\Users\<USER>\AppData\Local\Temp\.tmpPuXYp5\theseus.jar
+E:\mxy\meta\versions\1.21.1-21.1.250\1.21.1-21.1.250.jar
+E:\mxy\meta\libraries\com\github\oshi\oshi-core\6.4.10\oshi-core-6.4.10.jar
+E:\mxy\meta\libraries\com\ibm\icu\icu4j\73.2\icu4j-73.2.jar
+E:\mxy\meta\libraries\com\mojang\authlib\6.0.54\authlib-6.0.54.jar
+E:\mxy\meta\libraries\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar
+E:\mxy\meta\libraries\com\mojang\brigadier\1.3.10\brigadier-1.3.10.jar
+E:\mxy\meta\libraries\com\mojang\datafixerupper\8.0.16\datafixerupper-8.0.16.jar
+E:\mxy\meta\libraries\com\mojang\patchy\2.2.10\patchy-2.2.10.jar
+E:\mxy\meta\libraries\com\mojang\text2speech\1.17.9\text2speech-1.17.9.jar
+E:\mxy\meta\libraries\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar
+E:\mxy\meta\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+E:\mxy\meta\libraries\io\netty\netty-buffer\4.1.97.Final\netty-buffer-4.1.97.Final.jar
+E:\mxy\meta\libraries\io\netty\netty-codec\4.1.97.Final\netty-codec-4.1.97.Final.jar
+E:\mxy\meta\libraries\io\netty\netty-common\4.1.97.Final\netty-common-4.1.97.Final.jar
+E:\mxy\meta\libraries\io\netty\netty-handler\4.1.97.Final\netty-handler-4.1.97.Final.jar
+E:\mxy\meta\libraries\io\netty\netty-resolver\4.1.97.Final\netty-resolver-4.1.97.Final.jar
+E:\mxy\meta\libraries\io\netty\netty-transport-classes-epoll\4.1.97.Final\netty-transport-classes-epoll-4.1.97.Final.jar
+E:\mxy\meta\libraries\io\netty\netty-transport-native-unix-common\4.1.97.Final\netty-transport-native-unix-common-4.1.97.Final.jar
+E:\mxy\meta\libraries\io\netty\netty-transport\4.1.97.Final\netty-transport-4.1.97.Final.jar
+E:\mxy\meta\libraries\it\unimi\dsi\fastutil\8.5.12\fastutil-8.5.12.jar
+E:\mxy\meta\libraries\net\java\dev\jna\jna-platform\5.14.0\jna-platform-5.14.0.jar
+E:\mxy\meta\libraries\net\java\dev\jna\jna\5.14.0\jna-5.14.0.jar
+E:\mxy\meta\libraries\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar
+E:\mxy\meta\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar
+E:\mxy\meta\libraries\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar
+E:\mxy\meta\libraries\org\jcraft\jorbis\0.0.17\jorbis-0.0.17.jar
+E:\mxy\meta\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows-arm64.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows-x86.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows-arm64.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows-x86.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows-arm64.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows-x86.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows-arm64.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows-x86.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows-arm64.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows-x86.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows-arm64.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows-x86.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows-arm64.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows-x86.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows-arm64.jar
+E:\mxy\meta\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows-x86.jar
+E:\mxy\meta\libraries\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar
+E:\mxy\meta\libraries\net\neoforged\fancymodloader\earlydisplay\4.0.44\earlydisplay-4.0.44.jar
+E:\mxy\meta\libraries\net\neoforged\fancymodloader\loader\4.0.44\loader-4.0.44.jar
+E:\mxy\meta\libraries\net\neoforged\accesstransformers\at-modlauncher\10.0.1\at-modlauncher-10.0.1.jar
+E:\mxy\meta\libraries\net\neoforged\accesstransformers\10.0.1\accesstransformers-10.0.1.jar
+E:\mxy\meta\libraries\net\neoforged\bus\8.0.5\bus-8.0.5.jar
+E:\mxy\meta\libraries\net\neoforged\coremods\7.0.3\coremods-7.0.3.jar
+E:\mxy\meta\libraries\cpw\mods\modlauncher\11.0.5\modlauncher-11.0.5.jar
+E:\mxy\meta\libraries\net\neoforged\mergetool\2.0.0\mergetool-2.0.0-api.jar
+E:\mxy\meta\libraries\com\electronwill\night-config\toml\3.8.3\toml-3.8.3.jar
+E:\mxy\meta\libraries\com\electronwill\night-config\core\3.8.3\core-3.8.3.jar
+E:\mxy\meta\libraries\net\neoforged\JarJarSelector\0.4.1\JarJarSelector-0.4.1.jar
+E:\mxy\meta\libraries\net\neoforged\JarJarMetadata\0.4.1\JarJarMetadata-0.4.1.jar
+E:\mxy\meta\libraries\org\apache\maven\maven-artifact\3.8.5\maven-artifact-3.8.5.jar
+E:\mxy\meta\libraries\net\jodah\typetools\0.6.3\typetools-0.6.3.jar
+E:\mxy\meta\libraries\net\minecrell\terminalconsoleappender\1.3.0\terminalconsoleappender-1.3.0.jar
+E:\mxy\meta\libraries\net\fabricmc\sponge-mixin\0.15.2+mixin.0.8.7\sponge-mixin-0.15.2+mixin.0.8.7.jar
+E:\mxy\meta\libraries\org\openjdk\nashorn\nashorn-core\15.4\nashorn-core-15.4.jar
+E:\mxy\meta\libraries\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar
+E:\mxy\meta\libraries\cpw\mods\bootstraplauncher\2.0.2\bootstraplauncher-2.0.2.jar
+E:\mxy\meta\libraries\cpw\mods\securejarhandler\3.0.8\securejarhandler-3.0.8.jar
+E:\mxy\meta\libraries\org\ow2\asm\asm-commons\9.10.1\asm-commons-9.10.1.jar
+E:\mxy\meta\libraries\org\ow2\asm\asm-util\9.10.1\asm-util-9.10.1.jar
+E:\mxy\meta\libraries\org\ow2\asm\asm-analysis\9.10.1\asm-analysis-9.10.1.jar
+E:\mxy\meta\libraries\org\ow2\asm\asm-tree\9.10.1\asm-tree-9.10.1.jar
+E:\mxy\meta\libraries\org\ow2\asm\asm\9.10.1\asm-9.10.1.jar
+E:\mxy\meta\libraries\net\neoforged\JarJarFileSystems\0.4.1\JarJarFileSystems-0.4.1.jar
+E:\mxy\meta\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar
+E:\mxy\meta\libraries\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar
+E:\mxy\meta\libraries\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar
+E:\mxy\meta\libraries\com\mojang\logging\1.2.7\logging-1.2.7.jar
+E:\mxy\meta\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.22.1\log4j-slf4j2-impl-2.22.1.jar
+E:\mxy\meta\libraries\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar
+E:\mxy\meta\libraries\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar
+E:\mxy\meta\libraries\org\jline\jline-reader\3.20.0\jline-reader-3.20.0.jar
+E:\mxy\meta\libraries\org\jline\jline-terminal\3.20.0\jline-terminal-3.20.0.jar
+E:\mxy\meta\libraries\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar
+E:\mxy\meta\libraries\net\minecraftforge\srgutils\0.4.15\srgutils-0.4.15.jar
+E:\mxy\meta\libraries\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar
+E:\mxy\meta\libraries\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar
+E:\mxy\meta\libraries\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+E:\mxy\meta\libraries\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar
+E:\mxy\meta\libraries\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar
+E:\mxy\meta\libraries\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar
+E:\mxy\meta\libraries\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar
+E:\mxy\meta\libraries\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar
+E:\mxy\meta\libraries\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar
+E:\mxy\meta\libraries\com\machinezoo\noexception\noexception\1.7.1\noexception-1.7.1.jar
+
+
+[2026-10-02 14:30:45.169] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp started successfully. Waiting for PID 30976 to stop.
+[2026-10-02 14:32:51.411] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Minecraft is running on renderer:
+NVIDIA GeForce GTX 1660 Ti/PCIe/SSE2
+[2026-10-02 14:40:36.256] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: PID "30976" is not alive or reused by another process. Minecraft JVM appears to have stopped.
+[2026-10-02 14:40:36.627] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: System used RAM after Minecraft process finish moment: 14.7g
+[2026-10-02 14:40:36.961] [INFO] [dev.kostromdan.mods.crash_assistant.common_config.lang.LanguageProvider]: Crash Assistant interface language: zh_cn
+[2026-10-02 14:40:36.979] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: System used Swap Space after Minecraft process finish moment: 5.9g
+[2026-10-02 14:40:36.979] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: System free Disk (E:\) Space after Minecraft process finish moment: 43.3g
+[2026-10-02 14:40:36.988] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding latest.log from E:\mxy\profiles\HydWind\logs\latest.log
+[2026-10-02 14:40:36.991] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding debug.log from E:\mxy\profiles\HydWind\logs\debug.log
+[2026-10-02 14:40:36.991] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: stderr_stream.log size: 661 bytes
+[2026-10-02 14:40:37.006] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding launcher_log.txt from E:\mxy\profiles\HydWind\logs\launcher_log.txt
+[2026-10-02 14:40:37.028] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding KubeJS: client.log from E:\mxy\profiles\HydWind\logs\kubejs\client.log
+[2026-10-02 14:40:37.032] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding KubeJS: startup.log from E:\mxy\profiles\HydWind\logs\kubejs\startup.log
+[2026-10-02 14:40:37.038] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: startup_scripts.log has no errors, logging its contents into crash_assistant_app.log instead of attaching it as a separate log.
+[2026-10-02 14:40:37.040] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: startup_scripts.log contents:
+[2026-10-02 14:30:30.516] [INFO] [StartupScripts]: Running script: startup/example.jexl
+[2026-10-02 14:40:37.083] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding crash_assistant_app.log from E:\mxy\profiles\HydWind\logs\crash_assistant\crash_assistant_app.log
+[2026-10-02 14:40:37.083] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Reached first tick of TitleScreen: false
+[2026-10-02 14:40:37.085] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Joined world successfully: false
+[2026-10-02 14:40:37.085] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Prevent Crash Assistant Window: false
+[2026-10-02 14:40:37.086] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: stop() function of Minecraft fired: false
+[2026-10-02 14:40:37.086] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: close() function of Minecraft failed: false
+[2026-10-02 14:40:37.088] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: emergencySave() function of Minecraft fired: false
+[2026-10-02 14:40:37.096] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: isModpackCreator: false
+[2026-10-02 14:40:37.098] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: isHelpLinkDefault: true
+[2026-10-02 14:40:37.099] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: helpLink: https://discord.neoforged.net
+[2026-10-02 14:40:37.101] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Seems like Minecraft crashed without any crash report. Starting Crash Assistant app.
+[2026-10-02 14:40:38.567] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: UUID(7ddbbe98a0ec4139b8413ba2b67764c0) verification result: LICENSED
+[2026-10-02 14:40:40.526] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantGUI took to start: 4.263 seconds.
+[2026-10-02 14:40:40.533] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding modlist.txt from E:\mxy\profiles\HydWind\logs\modlist.txt
+[2026-10-02 14:40:40.814] [INFO] [dev.kostromdan.mods.crash_assistant.common_config.mod_list.ModListUtils]: Parsed 166 mod(s) metadata in 271 ms
+[2026-10-02 14:40:41.128] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Reading finished in 20 ms
+[2026-10-02 14:40:41.761] [INFO] [LogAnalysisScripts]: Running script: log_analysis/example.jexl
+[2026-10-02 14:40:41.922] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Analysis finished in 871 ms
+[2026-10-02 14:40:41.942] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Showing KnownCrashReason: Create6Addons
+
+ 
+我们在 **latest.log** 中检测到缺少 Create 模组类的迹象，且当前已安装 Create 模组。
+ 
+Create 的第 6 次更新最近发布，但某些附属/整合模组（包括标准附属和带有 Create 兼容性的模组）可能版本不匹配：
+- 使用 Create Update 5 搭配为 Update 6 制作的附属，或
+- 使用 Create Update 6 搭配为 Update 5 制作的附属。
+ 
+请确保所有与 Create 相关的模组要么都来自 Update 5，要么都来自 Update 6。
+请注意，发布日期并不总是可靠的兼容性判断依据。
+ 
+这可能是误报，请再次核对。
+ 
+要识别哪些模组与当前 Create 版本不兼容：
+点击下方的 **查找与当前 Create 模组不兼容的模组** 按钮。
+等待分析完成后，您将看到与已安装的 Create 版本不兼容的模组列表。
+ 
+
+[2026-10-02 14:40:43.317] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Shown KnownCrashReason: Create6Addons (Seen warning for 1.161s)
+[2026-10-02 14:40:43.701] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Crash Assistant closed.

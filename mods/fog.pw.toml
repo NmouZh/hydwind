@@ -1,0 +1,13 @@
+name = "Fog"
+filename = "Fog-neoforge-1.11.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "106460aa8b09e8ce6051b332d104c787c208d28a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7079142
+project-id = 815438

@@ -1,0 +1,13 @@
+name = "Tsuki"
+filename = "Tsuki-1.8.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "af31a73757071f9adb7f9e18108b7d07b01e5886"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9025863
+project-id = 1508022

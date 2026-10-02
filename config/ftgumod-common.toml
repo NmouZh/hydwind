@@ -1,0 +1,14 @@
+#FTGU Mod Configuration
+[ftgumod]
+	#If enabled, researches can be copied
+	allowResearchCopy = true
+	#If disabled, default technologies will not be loaded
+	loadDefaultTechnologies = true
+	#If enabled, every player will get a research book when they join a new world or server
+	giveResearchBook = true
+	#How much of the research guide is shown in JEI.
+	#FULL = prerequisite technologies, and how to research them (idea table ingredients, research table puzzle, other unlock conditions)
+	#CHAIN_ONLY = prerequisite technologies only
+	#DISABLED = no research guide in JEI at all
+	#Allowed Values: FULL, CHAIN_ONLY, DISABLED
+	researchGuideMode = "FULL"
